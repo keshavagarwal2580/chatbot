@@ -1,0 +1,177 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey Graphian,what can i do for u ?",
+          "Hello, Graphian, what can i do for u ?"
+        ]
+      },
+      {
+        "tag": "morning",
+        "patterns": [
+          "Morning",
+          "Good Morning",
+          "What a beautiful morning!"
+        ],
+        "responses": [
+          "Good Morning!",
+          "Wish you a very good morning!",
+          "Have a good morning!"
+        ]
+      },
+      {
+        "tag": "afternoon",
+        "patterns": [
+          "Afternoon",
+          "Good Afternoon",
+          "What a beautiful afternoon!",
+          "Good noon"
+        ],
+        "responses": [
+          "Good Afternoon!",
+          "Very good afternoon!",
+          "Have a good afternoon!"
+        ]
+      },
+      {
+        "tag": "evening",
+        "patterns": [
+          "Evening",
+          "Good Evening",
+          "What a beautiful evening!",
+          "Eve",
+          "What a pleasant eve"
+        ],
+        "responses": [
+          "Good Evening!",
+          "Very good evening!",
+          "Have a good evening !"
+        ]
+      },
+      {
+        "tag": "course",
+        "patterns": [
+          "what course do u offer ?",
+          "course name u offer ",
+          "Tell me about the courses ",
+          "different courses",
+          "best course"
+        ],
+        "responses": [
+          "We offer 1. BTech  2. BCA  3. BSc  4. MBA  5. BBA "
+        ]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "can u tell me the fee structure",
+          "fees of different courses",
+          "fees of btech",
+          "fees of mba",
+          "cheapest course fee",
+          "btech fees",
+          "fees"
+        ],
+        "responses": [
+          "1. BTech --> 10 lakh  2. BCA --> 6 lakh  3. BBA --> 3 lakh  4. MBA --> 5 lakh  5. BSc --> 5 lakh"
+        ]
+      },
+      {
+        "tag": "Admission",
+        "patterns": [
+          "admission",
+          "how to take admission",
+          "what is the process of admission ",
+          "how can i  get into graphic era",
+          "how to get seat in college ?",
+          "Admit process",
+          "Admission process",
+          "what is the admission process at graphic era ?"
+        ],
+        "responses": [
+          "A student can be admitted in 3 ways 1) Jee mains 2) direct admiision after 12  3) NRI category"
+        ]
+      },
+      {
+        "tag": "governing council",
+        "patterns": [
+          "who are governing councils",
+          "members of governing council",
+          "governing council members",
+          "college society member",
+          "does the college have a governing council ?"
+        ],
+        "responses": [
+          "1) Prof. (Dr.) Kamal Ghanshala   2) Prof (Dr). R. C. Joshi"
+        ]
+      },
+      {
+        "tag": "canteen",
+        "patterns": [
+          "food facilities",
+          "canteen facilities",
+          "is there any canteen",
+          "does college have canteen",
+          "where is cafeteria",
+          "menu in canteen",
+          "food"
+        ],
+        "responses": [
+          "graphic era canteen provides variety of food including soft drinks and fast food and home food as well "
+        ]
+      },
+      {
+        "tag": "hostel",
+        "patterns": [
+          "hostel location",
+          "hostel",
+          "hostel facilities",
+          "hostel fee",
+          "where is the hostel ?",
+          "hostel capacity",
+          "distance between hostel and college",
+          "how big is the hostel ?",
+          "hostel address"
+        ],
+        "responses": [
+          "we have different hostel with all the facilities required. for more details you can go and visit www.geu.ac.in"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome!","Welcome!"]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why you should drink a mug of coffee before exam? With each sip you just mug up."
+        ]
+      }
+    ]
+  }
